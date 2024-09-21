@@ -1,0 +1,42 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1726694139065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726694150738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,4 +18,6 @@\n ```\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n+\n+> \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726694177257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,5 @@\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n \n-> \n\\ No newline at end of file\n+> #\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726694186284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,5 @@\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n \n-> #\n\\ No newline at end of file\n+> #reloj12h`\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726694193346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,5 @@\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n \n-> #reloj12h`\n\\ No newline at end of file\n+> `#reloj12h`\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726694210435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,5 @@\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n \n-> `#reloj12h` es la idéntidad a\n\\ No newline at end of file\n+> `#reloj12h` es la idéntidad as\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726694228983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,5 @@\n \n ### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n \n \n-> `#reloj12h` es la idéntidad asociada a la salida del \n\\ No newline at end of file\n+> `#reloj12h` es la idéntidad asociada a la salida del re\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1726694139065,
+            "name": "Commit-0",
+            "content": "# Relojes 12h y 24h\n\nEste es el __blog__ del `pequeño componente web` que sirve para colocar un `reloj` en una web <mark>o en cualquier codigo html cual sea</mark>\n\n## ¿Cómo funciona?\n\nExísten para el correcto funcionamíento de los ficheros en javascript, dos idéntidades html llamadas :\n\n```html\n<!-- La 1º de todas sería\n la que muestra un reloj en formato de 12 horas.  -->\n<tag id=\"reloj12h\"></tag>\n\n<!-- La 2º de todas sería\n la que muestra un reloj en formato de 24 horas.  -->\n<tag id=\"reloj24h\"></tag>\n\n```\n\n### `id=\"nombre propio, o identidad del elemento o tag html\"`. Para despistados \n\n"
+        }
+    ]
+}

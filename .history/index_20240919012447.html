@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ca-ES, en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>relojes</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: repeating-linear-gradient(0deg, hsla(0, 0%, 41%, 0.63) 12%, hsla(0, 0%, 0%, 0.404));
+        }
+        
+        h1 {
+            margin-top: 6vh;
+            border-bottom: 0.3vw solid black;
+        }
+
+        #dosRelojes {
+            width: 80%;
+            height: auto;
+            margin: 2vh auto;
+            padding: 1vh 1vw;
+            display: flex;
+            border-bottom: 0.1vw dashed gray;
+            /* box-shadow: inset -0.2vh 0 06px hsl(41, 100%, 50%); */
+            box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        summary::marker {
+            content: none !important;
+        }
+
+        summary {
+            cursor: pointer !important;
+            color: orangered;
+            text-decoration: underline;
+            margin: 0.5vh auto;
+            font-size: 12pt;
+        }
+
+        #caja12h {
+            display: flex;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 2vh;
+            border-top: 0.2vw solid darkblue;
+        }
+
+        #identidades_principales {
+            display: flex;
+            justify-content: space-around;
+            align-items:last baseline;
+            padding: 2vh 2vw;
+            width: 78%;
+            margin: auto auto;
+            background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
+            border-radius: 0.755vw;
+        }
+
+        .conFoto figure {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
+            padding: 3vh 2vw;
+            border-radius: 1.6vw;
+        }
+
+        .conFoto figure img {
+            border-radius: 1vw;
+        }
+
+        .conFoto figure figcaption {
+            position: absolute;
+            border-radius: 1vw;
+            text-shadow: 0 0 1px hotpink;
+            background-image:  repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
+            mix-blend-mode: screen;
+        }
+
+        .conTexto  {
+            width: fit-content;
+            height: auto;
+            color: cornflowerblue;
+            text-shadow: 0.1vh 0.1vw 1px rgb(220, 140, 20), -0.1vh -0.1vw 1px black;
+            background-image: repeating-linear-gradient(132deg, transparent, darkgray, aliceblue, darkgray, transparent);
+            border-radius: 0.8vw;
+        }
+
+        .conTexto blockquote {
+            padding: 2vw;
+            border-radius: 1vw;
+            background-image: linear-gradient(-120deg, transparent 12%, dimgray, lightgray, dimgray, transparent, transparent);
+        }
+
+        .conTexto blockquote mark {
+            text-shadow: 0.1vh 0.1vw 1px rgb(220, 20, 60), -0.1vh -0.1vw 1px black;
+            color: cornflowerblue !important;
+            display: block;
+            margin: 1vh auto;
+        }
+
+        #estilos_generales {
+            width: 78%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        #estilos_generales article h3 {
+            text-align: center;
+            width: fit-content;
+            margin: 3vh auto;
+        }    
+
+        #textoGeneral {
+            padding: 2vh 2vw;
+            width: fit-content;
+            /* border: 0.2vw solid black; */
+            overflow: hidden;
+        }
+
+        .hache3 {
+            display: block !important;
+            text-align: center;
+            margin: 1.5vh auto;
+        }
+
+        .code_md {
+            font-weight: 800;
+            font-size: calc(1em * 1.25);
+            background-image: repeating-linear-gradient(98deg, gray, lightcoral, gray);
+            padding: 0.6vh 2vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Relojes 12h y 24h</h1>
+        <aside id="dosRelojes">
+            <div id="caja12h">
+                <div id="reloj12h"></div>
+            </div>
+            <hr>
+            <div id="reloj24h"></div>
+        </aside>
+        <nav></nav>
+    </header>
+    <main>
+        <h2>¿Cómo Funciona?</h2>
+        <section id="identidades_principales">
+            <article class="conFoto">
+                <figure>
+                    <img src="./img/identidadesPrincipales.png" alt="foto de las id principales">
+                <figcaption><h3>Hay 2 Idéntidades html</h3></figcaption>
+                </figure>
+            </article>
+            <article class="conTexto">
+                    <cite>Exísten para el correcto funcionamíento de los ficheros en javascript, dos idéntidades html
+                        llamadas :</cite> <hr /><cite>id="nombre propio, o identidad del elemento o tag html". Para despistados</cite>
+                <blockquote>
+                    <mark>#reloj12h es la idéntidad asociada a la salida del reloj en modo 12 horas.</mark>
+                 
+                    <mark>#reloj24h es la idéntidad asociada a la salida del reloj en modo 24 horas.</mark>
+                </blockquote>           
+            </article>
+        </section>
+        <section id="estilos_generales">
+            <article>
+                <h3>Estílos generales</h3>
+                <p id="textoGeneral">
+                    Ambos Relojes cúal séa el que vayas a úsar, se muestran con idéntico estilos y aparíencia. <br><hr><br><strong class="hache3">Sobreescríbir estos estilos</strong>
+                    Están para dar una aparíencia inicíal, <br> pero de los <span class="code_md">3 archivos .js</span> uno de estos;
+                    
+                    <span class="code_md">./archivoEstilos.js</span> Sírve para dar estílos nuevos o, y <span class="code_md">sobreescríbir</span> los por defecto.
+                </p>
+            </article>
+            <article class="conFoto">
+                <figure>
+                    <img src="./img/fotoDetails12h.png" alt="foto de las id principales">
+                <figcaption><h3>Hay 2 Idéntidades html</h3></figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <h2>En construcción de momento</h2>
+    <script type="module" src="./relojes.js"></script>
+</body>
+
+</html>
+
+<!--<p>Este es un texto con un <span style="font-size: 125%;">texto 25% más grande</span> que el resto.</p>
+-->

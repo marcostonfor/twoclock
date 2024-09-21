@@ -1,0 +1,66 @@
+
+
+h1 {
+    font-size: calc(1em * 0.85);
+    font-family: 'Frijole', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+#cajonRelojes {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 45vw;
+    margin: 2vh auto;
+
+    padding: 0.5vh 1vw;
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    font-family: 'Comic Sans MS';
+    color: hsla(0, 0%, 0%, 0.603) !important;
+    text-shadow: 0.1vh 0.1vw 1px orange !important;
+    border-radius: 1.5vw;
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+}
+
+summary::marker {
+    content: none !important;
+}
+
+summary {
+    cursor: pointer !important;
+    color: orangered;
+    text-decoration: underline;
+    margin: 0.5vh auto;
+    font-size: 12pt;
+}
+
+.dividerY {
+    height: 12vh !important;
+
+}
+
+sup {
+    margin-left: 2vw;
+}
+
+h2 {
+    padding: 2vh 3vw;
+    border-bottom: 0.1vw solid pink;
+    text-align: center;
+    border-top: 0.2vw solid blueviolet;
+    font-family: 'Neto', sans-serif;
+    color: darkgoldenrod;
+    text-shadow: 0.1vh 0.1vw 1px hotpink;
+    font-size: var(--font-size-standard);
+}
+
+#reloj12h,
+#reloj24h {
+    padding: 1vh 2vw;
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    border-radius: 1vw;
+    outline: dashed 0.1vw whitesmoke;
+    border: 0.01vw solid wheat;
+    font-family: 'Loopy', sans-serif;
+}

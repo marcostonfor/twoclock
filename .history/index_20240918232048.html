@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ca-ES, en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>relojes</title>
+    <style>
+        h1 {
+            margin-top: 6vh;
+            border-bottom: 0.3vw solid black;
+        }
+
+        #dosRelojes {
+            width: 80%;
+            height: auto;
+            margin: 2vh auto;
+            padding: 1vh 1vw;
+            display: flex;
+            border-bottom: 0.1vw dashed gray;
+            /* box-shadow: inset -0.2vh 0 06px hsl(41, 100%, 50%); */
+            box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        summary::marker {
+            content: none !important;
+        }
+
+        summary {
+            cursor: pointer !important;
+            color: orangered;
+            text-decoration: underline;
+            margin: 0.5vh auto;
+            font-size: 12pt;
+        }
+
+        #caja12h {
+            display: flex;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 2vh;
+            border-top: 0.2vw solid darkblue;
+        }
+
+        #identidades_principales {
+            display: flex;
+            justify-content: s;
+        }
+
+        .conFoto figure {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .conFoto figure figcaption {
+            position: absolute;
+            border-radius: 1vw;
+            text-shadow: 0 0 1px hotpink;
+            background-image:  repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
+            mix-blend-mode: screen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Relojes 12h y 24h</h1>
+        <aside id="dosRelojes">
+            <div id="caja12h">
+                <div id="reloj12h"></div>
+            </div>
+            <hr>
+            <div id="reloj24h"></div>
+        </aside>
+        <nav></nav>
+    </header>
+    <main>
+        <h2>¿Cómo Funciona?</h2>
+        <section id="identidades_principales">
+            <article class="conFoto">
+                <figure>
+                    <img src="./img/identidades.png" alt="foto de las id principales">
+                <figcaption><h3>Hay 2 Idéntidades html</h3></figcaption>
+                </figure>
+            </article>
+            <article class="conTexto">
+                <p>
+                    <cite>Exísten para el correcto funcionamíento de los ficheros en javascript, dos idéntidades html
+                        llamadas :</cite>
+                <blockquote>
+                    #reloj12h es la idéntidad asociada a la salida del reloj en modo 12 horas.
+                    <br>
+                    #reloj24h es la idéntidad asociada a la salida del reloj en modo 24 horas.
+                </blockquote>
+                </p>
+            </article>
+        </section>
+    </main>
+    <h2>En construcción de momento</h2>
+    <script type="module" src="./relojes.js"></script>
+</body>
+
+</html>

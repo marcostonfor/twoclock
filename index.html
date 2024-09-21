@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ca-ES, en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>relojes</title>
+<link rel="stylesheet" href="./css/index.css">
+    <style>
+
+
+        footer {
+            padding: 2vw;
+        }
+
+        footer ul {
+            list-style: none;
+            text-align: end;
+            margin-right: 3vw;
+            line-height: 0.1vh;
+            border-right: 0.2vw double hsl(0, 0%, 0%);
+            padding: 3vh 1vw;
+            box-shadow: inset -0.4vw 0 6px hsl(0, 0%, 83%), inset 12vw 0 6px 32px hsl(28, 87%, 67%);
+        }
+
+        footer ul li h6 {
+            padding: 5vh 0vw;
+            text-align: center;
+            border-radius: 100vw;
+            background-image: radial-gradient(ellipse at center, hsla(146, 50%, 36%, 0.582), transparent, transparent);
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            padding: 2vh 0;
+            border-radius: 1vw;
+            box-shadow: inset 10vh 10vw 7px 23px hsla(180, 100%, 27%, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <aside id="cajonRelojes">
+            <h2 id="reloj12h"></h2>
+            <hr>
+            <h1>
+                <strong>Clocks web on</strong>
+                <hr>
+                <q>Relojes 12h y 24h</q>
+            </h1>
+            <hr>
+            <h2 id="reloj24h"></h2>
+        </aside>
+        <nav></nav>
+    </header>
+    <main>
+        <h2>¿Cómo Funciona?</h2>
+        <section id="identidades_principales">
+            <article class="conFoto">
+                <figure>
+                    <img src="./img/identidadesPrincipales.png" alt="foto de las id principales">
+                    <figcaption>
+                        <h3>Hay 2 Idéntidades html</h3>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="conTexto">
+                <cite>Exísten para el correcto funcionamíento de los ficheros en javascript, dos idéntidades html
+                    llamadas :</cite>
+                <hr /><cite>id="nombre propio, o identidad del elemento o tag html". Para despistados</cite>
+                <blockquote>
+                    <mark><span class="code_md">#reloj12h</span> es la idéntidad asociada a la salida del reloj en modo
+                        12 horas.</mark>
+
+                    <mark><span class="code_md">#reloj24h</span> es la idéntidad asociada a la salida del reloj en modo
+                        24 horas.</mark>
+                </blockquote>
+            </article>
+        </section>
+        <section id="estilos_generales">
+            <article>
+                <h3>Estílos generales</h3>
+                <p id="textoGeneral">
+                    Ambos Relojes cúal séa el que vayas a úsar, se muestran con idéntico estilos y aparíencia. <br>
+                    <br><strong class="hache3">Sobreescríbir estos estilos</strong>
+                    Están para dar una aparíencia inicíal, <br> pero de los <span class="code_md">3 archivos .js</span>
+                    uno de estos;<br>
+
+                    <span class="code_md">./archivoEstilos.js</span> Sírve para dar estílos nuevos o, y <span
+                        class="code_md">sobreescríbir</span> los por defecto.
+                </p>
+            </article>
+            <article class="conFoto">
+                <p><strong class="hache3">Otro de los 3 archivos .js</strong>
+
+                    <span class="code_md">./archivoConfiguracion.js</span> es opcional.
+
+                    <strong class="hache3">¿Qué signifíca o por qué opcional?</strong>
+                    Es un archivo importado por <span class="code_md">./relojes.js</span> y permite mostrar u ocultar
+                    las letras <em><strong>am y pm</strong></em>
+                    si la ruedecita que aparece junto al reloj molesta, solo hay que usar su identidad : <mark
+                        class="code_md">#configurar12h</mark>
+                </p>
+                <figure>
+                    <img src="./img/fotoDetails12h.png" alt="foto de las id principales">
+                    <figcaption>
+                        <!-- <h3>Hay 2 Idéntidades html</h3> -->
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <h2>En construcción de momento</h2>
+    <footer>
+
+        <ul>
+            <li>
+                <h6>Link a la descarga del Reloj :</h6>
+            </li>
+            <li>
+                <a href="https://github.com/marcostonfor/clocks.git" target="_blank"
+                    rel="noopener noreferrer">https://github.com/marcostonfor/clocks.git</a>
+            </li>
+        </ul>
+
+
+    </footer>
+    <script type="module" src="./relojes.js"></script>
+</body>
+
+</html>
+
+<!--<p>Este es un texto con un <span style="font-size: 125%;">texto 25% más grande</span> que el resto.</p>
+-->

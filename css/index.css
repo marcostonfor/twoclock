@@ -1,0 +1,22 @@
+@import url('./tipografías.css');
+@import url('./header.css');
+@import url('main.css');
+
+
+* {
+    box-sizing: border-box;
+    font-size: calc(1em * 1.062);
+}
+
+:root {
+    --font-size-standard: calc(1em * 1.30);
+    --font-family-standard: monospace;
+}
+
+body {
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: var(--font-family-standard);
+}

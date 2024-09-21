@@ -1,0 +1,30 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1726697369363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726697934090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html>\n+<html lang=\"\">\n \n <head>\n \t<meta charset=\"utf-8\">\n \t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+                },
+                {
+                    "date": 1726697941169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang=\"ca-ES, e\">\n+<html lang=\"ca-ES, en\">\n \n <head>\n \t<meta charset=\"utf-8\">\n \t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+                },
+                {
+                    "date": 1726698155004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,11 @@\n \t\t\t<article>\n \t\t\t\t<p>\n                     <cite>Exísten para el correcto funcionamíento de los ficheros en javascript, dos idéntidades html llamadas :</cite>\n                     <blockquote>\n-                        \n+                        #reloj12h es la idéntidad asociada a la salida del reloj en modo 12 horas.\n+\n+#reloj24h es la idéntidad asociada a la salida del reloj en modo 24 horas.\n                     </blockquote>\n \t\t\t\t</p>\n \t\t\t</article>\n \t\t</section>\n"
+                }
+            ],
+            "date": 1726697369363,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<title>relojes</title>\n\t<style>\n\t\th1 {\n\t\t\tmargin-top: 6vh;\n\t\t\tborder-bottom: 0.3vw solid black;\n\t\t}\n\t\t#dosRelojes {\n\t\t\twidth: 80%;\n\t\t\theight: auto;\n\t\t\tmargin: 2vh auto;\n\t\t\tpadding: 1vh 1vw;\n\t\t\tdisplay: flex;\n\t\t\tborder-bottom: 0.1vw dashed gray;\n\t\t\t/* box-shadow: inset -0.2vh 0 06px hsl(41, 100%, 50%); */\n\t\t\tbox-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.5);\n\t\t}\n\n\t\tsummary::marker {\n\t\t\tcontent: none !important;\n\t\t}\n\n\t\tsummary {\n\t\t\tcursor: pointer !important;\n\t\t\tcolor: orangered;\n\t\t\ttext-decoration: underline;\n\t\t\tmargin: 0.5vh auto;\n\t\t\tfont-size: 12pt;\n\t\t}\n\n\t\t#caja12h {\n\t\t\tdisplay: flex;\n\t\t}\n\t\t\n\t\th2 {\n\t\t\ttext-align: center;\n\t\t\tmargin-top: 2vh;\n\t\t\tborder-top: 0.2vw solid darkblue;\n\t\t}\n\n\t</style>\n</head>\n\n<body>\n\t<header>\n\t<h1>Relojes 12h y 24h</h1>\n\t<aside id=\"dosRelojes\">\n\t\t<div id=\"caja12h\">\n\t\t\t<div id=\"reloj12h\"></div>\n\t\t</div>\n\t\t<hr>\n\t\t<div id=\"reloj24h\"></div>\n\t</aside>\n\t<nav></nav>\n\t</header>\n\t<main>\n\t\t<h2>¿Cómo Funciona?</h2>\n\t\t<section>\n\t\t\t<article>\n\t\t\t\t<h3>Hay 2 Idéntidades html</h3>\n\t\t\t\t<figure>\n\t\t\t\t\t<img src=\"./img/identidades.png\" alt=\"\">\n\t\t\t\t</figure>\n\t\t\t</article>\n\t\t\t<article>\n\t\t\t\t<p>\n\n\t\t\t\t</p>\n\t\t\t</article>\n\t\t</section>\n\t</main>\n\t<h2>En construcción de momento</h2>\n\t<script type=\"module\" src=\"./relojes.js\"></script>\n</body>\n\n</html>\n"
+        }
+    ]
+}

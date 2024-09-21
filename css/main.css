@@ -1,0 +1,139 @@
+main {
+    color: bisque;
+    font-family: 'Fonters', sans-serif;
+    text-shadow: 0.1vh 0.1vw 1px hsl(0, 0%, 2%), -0.1vh -0.1vw 1px hsl(0, 0%, 0%); 
+}
+
+#identidades_principales {
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    padding: 2vh 2vw;
+    width: 98%;
+    margin: auto auto;
+    /* background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent); */
+    border-radius: 0.755vw;
+}
+
+.conFoto figure {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    /* background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent); */
+    padding: 3vh 2vw;
+    border-radius: 1.6vw;
+}
+
+.conFoto figure img {
+    border-radius: 1vw;
+}
+
+.conFoto figure figcaption {
+    padding: 0vh 1vw;
+    position: absolute;
+    border-radius: 1vw;
+    text-shadow: 0 0 1px hotpink;
+    font-size: var(--font-size-standard);
+    font-family: 'i Ichimaru', sans-serif;
+    background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
+    mix-blend-mode: screen;
+}
+
+.conFoto p {
+    width: 85%;
+    margin: 2vh auto;
+    padding: 1vh 3vw;
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    border-radius: 2vw;
+}
+
+.conTexto {
+    width: fit-content;
+    height: auto;
+    padding: 1vh 2vw;
+    font-weight: 100;
+    /* text-shadow: 0.1vh 0.1vw 1px rgb(220, 140, 20), -0.1vh -0.1vw 1px hsl(0, 0%, 0%); */
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    border-radius: 0.8vw;
+}
+
+.conTexto blockquote {
+    padding: 2vw;
+    border-radius: 1vw;
+    background-image: linear-gradient(-120deg, lightgray, transparent 12%, transparent, dimgray, lightgray, dimgray, transparent, transparent, lightgray);
+    font-family: 'Fonters', sans-serif;
+}
+
+.conTexto blockquote mark {
+    font-weight: 100;
+    display: block;
+    margin: 1vh auto;
+    border-radius: 20vw;
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    color: yellow;
+}
+
+#estilos_generales {
+    width: 98%;
+    margin: auto auto;
+    padding: 1vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey); 
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+
+}
+
+#estilos_generales article {
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey); 
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    border-radius: 2vw;
+    margin: auto 1vw;
+}
+
+#estilos_generales article h3 {
+    text-align: center;
+    width: fit-content;
+    margin: 3vh auto;
+    padding: 0.5vh 1vw;
+    box-shadow: 0.1vh 0.1vw 16px 1px rgba(0, 0, 0, 0.303);
+    background-image: radial-gradient(ellipse at center, ghostwhite, lightgrey);
+    border-radius: 20vw;
+}
+
+#textoGeneral {
+    padding: 2vh 2vw;
+    width: fit-content;
+    overflow: hidden;
+    text-shadow: 0.1vh 0.1vw 1px hsl(0, 0%, 2%), -0.1vh -0.1vw 1px hsl(0, 0%, 0%);
+}
+
+.hache3 {
+    display: block !important;
+    text-align: center;
+    margin: 1.5vh auto;
+    padding: 0.6vh 0vw;
+    font-family: 'Nahista', sans-serif;
+    font-weight: 100;
+    font-size: var(--font-size-standard);
+    color: hsl(43, 39%, 53%);
+    text-shadow: 0.1vh 0.1vw 1px black;
+    box-shadow: inset 0 0 10px 21px hsla(0, 0%, 41%, 0.5), inset 1vh 0vw 10px 31px hsl(210, 14%, 53%);
+}
+
+.code_md {
+    font-weight: bolder;
+    font-size: var(--font-size-standard);
+    background-image: repeating-linear-gradient(98deg, gray, hsl(0, 79%, 72%), gray);
+    padding: 0.2vh 2vw;
+    color: hsl(9, 100%, 78%);
+    text-shadow: 0.1vh 0.1vw 1px hsl(0, 0%, 18%), -0.1vh -0.1vw 1px hsl(0, 0%, 0%);
+    box-shadow: 0 -1.6px 6px dimgray;
+    margin: 1vh auto !important;
+}
