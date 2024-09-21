@@ -39,6 +39,7 @@ main {
     text-shadow: 0 0 1px hotpink;
     font-size: var(--font-size-standard);
     font-family: 'i Ichimaru', sans-serif;
+    color: black;
     background-image: repeating-linear-gradient(0deg, transparent, hsla(0, 0%, 96%, 0.5), transparent);
     mix-blend-mode: screen;
 }
