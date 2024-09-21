@@ -51,6 +51,6 @@ function conf12h() {
         // Agregar el checkbox y el label al cuerpo del documento
         label.appendChild(checkbox);
         config.appendChild(label);
-       // mostrarConfiguracion.appendChild(config);
+        mostrarConfiguracion.appendChild(config);
     }
 }
