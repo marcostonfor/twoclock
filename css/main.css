@@ -1,5 +1,5 @@
 main {
-    letter-spacing: 0.6vw;
+    letter-spacing: 0.1vw;
     color: bisque;
     font-family: 'Fonters', sans-serif;
     text-shadow: 0.1vh 0.1vw 1px hsl(0, 0%, 2%), -0.1vh -0.1vw 1px hsl(0, 0%, 0%); 
