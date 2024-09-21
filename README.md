@@ -64,3 +64,8 @@ Otro de los __3 archivos__ `.js`
 ######  Debe lincarse al píe del documento, justo antes del tag `</body>`
 
 > Para que funcíone correctamente es obligado el úso del atributo html, `type=""` usando el valor por defecto en `module`
+***
+
+[link al repositorio del reloj](https://github.com/marcostonfor/clocks)
+
+***
